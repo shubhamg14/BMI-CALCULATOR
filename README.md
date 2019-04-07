@@ -1,6 +1,6 @@
 # BMI-CALCULATOR
 
-A BMI calculator which takes your Height(cms) and Weight(kgs) as input and outputs whether you are Underweight, Overweight or Healthy, implemented using Flask, HTML, CSS on wsgi hosted behind Apache2 on an EC2 instance.
+A BMI calculator which takes your Height(cms) and Weight(kgs) as input and outputs whether you are Underweight, Overweight or Healthy, implemented using **_Flask, HTML, CSS on wsgi hosted behind Apache2 on an EC2 instance_**.
 
 The Height and Weight input can only be integer and not string. 
 
