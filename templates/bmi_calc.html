@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+<style>
+.center_box {
+  margin: auto;
+  width: 40%;
+  padding: 5px;
+  border: 1px solid #008B8B;
+  }
+</style>
+   	<title>BMI_CALCULATOR</title>
+</head>
+<body>
+    <div class="center_box">
+    <h1><center>BMI CALCULATOR</center></h1>
+    	<form method="POST" action="/">
+	    <b><center>Weight (kgs)</center></b><br>
+    	<center><input type="number" name="weight" required="required"></center><br>
+    	<b><center>Height (cms)</center></b><br>
+    	<center><input type="number" name="height" required="required"></center><br>
+    	<center><button type="submit" class="btn btn-primary" value="Submit">Calculate</button></center>
+    	</form>
+    <br><br>
+    <center><b><i><output>{{bmi_cal}}</output></i></b></center>
+    </div>
+</body>
